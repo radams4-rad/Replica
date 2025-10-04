@@ -1,0 +1,189 @@
+@font-face {
+    font-family: Brice;
+    src: url("fonts/Brice\ SemiBold\ SemiExpanded.otf")
+}
+
+@font-face {
+    font-family: Eina;
+    src: url("fonts/Eina01-Light.ttf")
+}
+
+.bar{
+    border: 2px solid black;
+    width: 100vw; 
+    background-color: rgb(249, 199, 147);
+    margin-top: -10px;
+    margin-left: -10px;
+    height: 850px;
+}
+
+
+h1{
+    font-family: "Brice";
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    color: rgb(240, 112, 65);
+}
+
+h2{
+    font-family: "Eina";
+    font-size: 20px;
+    position: absolute;
+    right: 425px;
+    top: 55px;
+    color: rgb(23, 23, 23)
+}
+
+h3{
+    font-family: "Eina";
+    position: absolute;
+    font-size: 18px;
+    right: 100px;
+    top: 25px;
+    border: 5px solid rgb(240, 112, 65);
+    background-color: white;
+    padding: 25px;
+    color: rgb(240, 112, 65);
+}
+
+h3:hover{
+    background-color: rgb(240, 112, 65);
+    color: white;
+    transition: ease .3s;
+}
+
+hr{
+    margin-top: 150px;
+    border-width: 1px;
+    background-color: #000000;
+    border-color: #000000;
+}
+
+#hr2{
+    margin-top: -765px;
+   border-width: 2px;
+    background-color: #000000;
+    border-color: #000000;
+}
+
+#Adri{
+    font-family: "Brice";
+    color: rgb(23, 23, 23);
+    font-size: 50px;
+    top: 350px;
+}
+
+
+#Help{
+    font-family: "Brice";
+    color: rgb(23, 23, 23);
+    width: 600px;
+    font-size: 25px;
+    top: 475px;
+}
+
+#Work{
+    font-family: "Eina";
+    font-size: 15px;
+    height: 20px;
+    position: absolute;
+    left: 100px;
+    top: 625px;
+    width: 225px;
+    border: 5px solid rgb(240, 112, 65);
+    padding-left: 122px;
+    background-color: rgb(249, 199, 147);
+    color: rgb(240, 112, 65);
+}
+
+#Work:hover{
+    background-color: rgb(240, 112, 65);
+    color: white;
+    transition: ease .3s;
+}
+
+#Woman{
+    position: absolute;
+    right: 175px;
+    top:250px;
+    border-radius: 60px;
+    width: 550px;
+}
+
+#Note{
+    position: absolute;
+    top:1002px;
+    left: 0px;
+    width: 50%;
+    height: 823px;
+    overflow: hidden;
+}
+
+#Approach{
+    position: absolute;
+    top:1100px;
+    color: rgb(23, 23, 23);
+    left: 57%;
+    font-size: 35px;
+}
+
+#Collab{
+    position: absolute;
+    top:1275px;
+    color: rgb(23, 23, 23); 
+    left: 57%;
+    font-size: 25px;
+}
+
+#Believe{
+    font-family: "Eina";
+    font-size: 20px;
+    position: absolute;
+    left: 57%;
+    top: 1325px;
+    width: 600px;
+}
+
+#Iterative{
+    font-family: "Brice";
+    position: absolute;
+    top:1575px;
+    color: rgb(23, 23, 23);
+    left: 57%;
+    font-size: 25px;
+}
+
+#Take{
+    font-family: "Eina";
+    font-size: 20px;
+    position: absolute;
+    left: 57%;
+    top: 1625px;
+    width: 575px;
+}
+
+#cs{
+    border-top: 2px solid black;
+    width: 100vw; 
+    margin-top: 1800;
+}
+
+#Case{
+    left: 36%;
+    font-family: "Brice";
+    color: #000000;
+    font-size: 50px;
+    top: 1925px;
+}
+
+#folio{
+    margin-top: 1125px;
+    position: absolute;
+    left: 100px ;
+    width: 85vw;
+}
+
+#end{
+    margin-top: 1550px;
+}
